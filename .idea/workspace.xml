@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f8cd776-3f45-4c61-ae4e-eb6050b252fe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/kkk/third/SynchronizeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/testHillel.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/kkk/third/IncrementSynchronize.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/kkk/third/Synchronize.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/kkk/third/IncrementSynchronize.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/kkk/third/Synchronize.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/kkk/third/SynchronizeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/kkk/third/SynchronizeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/org/kkk/third/SynchronizeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/kkk/third/SynchronizeTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -23,8 +19,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/org/kkk/third/SynchronizeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+            <state relative-caret-position="195">
+              <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -216,7 +212,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550780605546" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550780941104" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -310,8 +306,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1550765488625</updated>
-      <workItem from="1550765494984" duration="10520000" />
+      <workItem from="1550765494984" duration="11065000" />
     </task>
+    <task id="LOCAL-00001" summary="Add count to think operation with val.">
+      <created>1550780693638</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1550780693639</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -336,12 +340,19 @@
     <history-entry file="SynchronizeTest - 2019.02.21 at 22h 19m 01s.xml">
       <configuration name="SynchronizeTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="SynchronizeTest - 2019.02.21 at 22h 23m 27s.xml">
+      <configuration name="SynchronizeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SynchronizeTest - 2019.02.21 at 22h 28m 51s.xml">
+      <configuration name="SynchronizeTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10520000" />
+    <option name="totallyTimeSpent" value="11065000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="79" y="27" width="1841" height="1053" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
@@ -354,11 +365,11 @@
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.33045357" />
+      <window_info anchor="bottom" id="Terminal" weight="0.33045357" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32937366" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32937366" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -376,6 +387,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add count to think operation with val." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add count to think operation with val." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/org/kkk/first/TextFromFile.java">
@@ -453,8 +468,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/org/kkk/third/SynchronizeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+        <state relative-caret-position="195">
+          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

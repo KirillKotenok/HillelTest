@@ -13,25 +13,20 @@ public class SynchronizeTest {
 
         int count = 0;
 
-        int zero = incrementSynchronize.getVal();
+        for (int i = 0; i < 4; i++) {
+            incrementSynchronize.thirdWay();
+            count++;
+            for (int j = 0; j < 4; j++) {
+                incrementSynchronize.secondWay();
+                count++;
+                for (int k = 0; k < 4; k++) {
+                    incrementSynchronize.firstWay();
+                    count++;
+                }
+            }
 
-        incrementSynchronize.firstWay();
-        count++;
-        int one = incrementSynchronize.getVal();
+        }
 
-        incrementSynchronize.secondWay();
-        count++;
-        int two = incrementSynchronize.getVal();
-
-        incrementSynchronize.thirdWay();
-        count++;
-        int finalVal = incrementSynchronize.getVal();
-
-        System.out.println("Zero: " + zero + " one: " + one + " two: " + two);
-
-        assertEquals(count, finalVal);
-
-        assertEquals(zero + one + two, finalVal);
-
+        assertEquals(count, incrementSynchronize.getVal());
     }
 }
