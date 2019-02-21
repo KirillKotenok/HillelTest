@@ -2,11 +2,14 @@ package org.kkk.third;
 
 import java.util.concurrent.locks.ReentrantLock;
 
-public class Synchronize {
+public class IncrementSynchronize {
     private int val = 0;
     private final Object lock = new Object();
     private final ReentrantLock reentrantLock = new ReentrantLock();
 
+    public int getVal() {
+        return val;
+    }
 
     public synchronized void firstWay() {
         this.val++;
