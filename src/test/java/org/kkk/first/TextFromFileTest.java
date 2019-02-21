@@ -9,10 +9,12 @@ public class TextFromFileTest {
 
     @Test
     public static void test() {
-        String url = "/home/kirillk/IdeaProjects/testHillel/src/main/resources/text";
+        String url = "text.txt";
         String regex = ".,/;:";
 
         Set readText=TextFromFile.readText(url, regex);
+
+        assertThrows(NullPointerException.class, ()-> TextFromFile.readText(url, null));
 
         assertEquals(readText, TextFromFile.readText(url, regex));
 
