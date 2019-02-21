@@ -3,8 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="9f8cd776-3f45-4c61-ae4e-eb6050b252fe" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/src/test/java/org/kkk/third/SynchronizeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/testHillel.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/kkk/third/IncrementSynchronize.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/kkk/third/Synchronize.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/kkk/third/IncrementSynchronize.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kkk/third/Synchronize.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/kkk/third/SynchronizeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/kkk/third/SynchronizeTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -19,8 +23,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/org/kkk/third/SynchronizeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+            <state relative-caret-position="450">
+              <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -209,7 +216,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550780259076" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550780605546" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -303,7 +310,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1550765488625</updated>
-      <workItem from="1550765494984" duration="10229000" />
+      <workItem from="1550765494984" duration="10520000" />
     </task>
     <servers />
   </component>
@@ -320,26 +327,34 @@
     <history-entry file="CopyTest - 2019.02.21 at 21h 33m 12s.xml">
       <configuration name="CopyTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="SynchronizeTest - 2019.02.21 at 22h 15m 10s.xml">
+      <configuration name="SynchronizeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SynchronizeTest - 2019.02.21 at 22h 17m 41s.xml">
+      <configuration name="SynchronizeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SynchronizeTest - 2019.02.21 at 22h 19m 01s.xml">
+      <configuration name="SynchronizeTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10229000" />
+    <option name="totallyTimeSpent" value="10520000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="79" y="27" width="1841" height="1053" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16657382" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16657382" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.33045357" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.33045357" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -438,8 +453,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/org/kkk/third/SynchronizeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+        <state relative-caret-position="450">
+          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
