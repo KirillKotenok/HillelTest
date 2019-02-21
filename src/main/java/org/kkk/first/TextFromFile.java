@@ -4,7 +4,9 @@ import java.util.*;
 import java.util.stream.Collectors;
 
 public class TextFromFile {
+
     public static Set readText(String filePath, String regex) {
+
         if (filePath == null || regex == null) {
             throw new NullPointerException();
         }
