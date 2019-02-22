@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.*;
 public class SynchronizeTest {
 
     @Test
-    public static void test() {
+    public void test() {
 
         IncrementSynchronize incrementSynchronize = new IncrementSynchronize();
 

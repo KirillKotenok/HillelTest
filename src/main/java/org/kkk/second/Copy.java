@@ -1,7 +1,5 @@
 package org.kkk.second;
 
-import org.kkk.first.TextFromFile;
-
 import java.util.Arrays;
 import java.util.Collection;
 

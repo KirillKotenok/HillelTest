@@ -11,8 +11,9 @@ import static org.junit.jupiter.api.Assertions.*;
 
 public class CopyTest {
 
+
     @Test
-    public static void test() {
+    public void testPutArrToCollection() {
         Copy copy = new Copy();
         Random r = new Random();
 
@@ -27,18 +28,11 @@ public class CopyTest {
             arrS[i] = (UUID.randomUUID().toString());
         }
 
-
-        Collection<String> exceptionStringColl = null;
-        assertThrows(NullPointerException.class, () -> copy.copyArrInCollection(arrS, exceptionStringColl));
-
         Collection<String> stringColl = new ArrayList<>();
-        Collection<String> collectionFromArrS=copy.copyArrInCollection(arrS, stringColl);
+        Collection<String> collectionFromArrS = copy.copyArrInCollection(arrS, stringColl);
 
-        Collection<String> exceptionIntColl = null;
-        assertThrows(NullPointerException.class, () -> copy.copyArrInCollection(arrS, exceptionIntColl));
-
-        Collection <Integer> intColl= new ArrayList<>();
-        Collection<String> collectionFromArrI=copy.copyArrInCollection(arrS, intColl);
+        Collection<Integer> intColl = new ArrayList<>();
+        Collection<String> collectionFromArrI = copy.copyArrInCollection(arrS, intColl);
 
         assertNotNull(collectionFromArrS);
 
